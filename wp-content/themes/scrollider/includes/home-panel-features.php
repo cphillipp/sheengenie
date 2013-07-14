@@ -36,11 +36,12 @@
 				<div class="col-full">
 
 					<div id="social">
-						<h3><?php _e('Find us socially', 'woothemes'); ?></h3>
-						<?php
+						<!-- CUSTOM -->
+						<!--<h3></?php _e('Find us socially', 'woothemes'); ?></h3>
+						</?php
 							if ( isset($settings['social_panel']) && $settings['social_panel'] == 'true' ) 
 								get_template_part( 'includes/social-panel' );
-						?>
+						?>-->
 						<?php if ( isset($settings['features_social_text']) && $settings['features_social_text'] != '' ) { ?>
 							<p><?php echo $settings['features_social_text']; ?></p>
 						<?php } ?>
