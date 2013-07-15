@@ -30,7 +30,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 	wp_head();
 	woo_head();
 ?>
-
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/scrollider/css/claymore.css" media="screen" />
 </head>
 
 <body <?php body_class(); ?>>
