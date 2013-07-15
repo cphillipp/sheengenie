@@ -1,3 +1,4 @@
 .has-slider #content-top 	{position:relative; top:0;}
 .has-slider #header 		{position:relative;}
 .has-slider #featured-wrap 	{position:relative;}
+#content 					{margin:0 !important;}
