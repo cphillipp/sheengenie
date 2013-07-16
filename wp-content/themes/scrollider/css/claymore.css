@@ -7,7 +7,9 @@ body 										{background:url('/wp-content/themes/scrollider/images/pattern.jpg
 #navigation 								{margin:48px 0 0 !important;}
 #header .mini-cart 							{margin:48px 10px 0 0 !important;}
 .has-slider #featured-wrap 					{position:relative; background:none;}
-#content 									{margin:0 !important;}
+#content 									{margin:0 !important; background:none;}
+#sub-feature 								{background:none;}
+.col-full 									{background:#FFF;}
 .has-slider #featured header h1 			{display:none;}
 #featured ul.flex-direction-nav li a 		{display:none;}
 #featured:hover ul.flex-direction-nav li a 	{display:block;}
