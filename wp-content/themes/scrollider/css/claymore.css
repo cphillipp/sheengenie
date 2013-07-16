@@ -1,6 +1,7 @@
 html 										{margin-top:0 !important;}
 body 										{background:url('/wp-content/themes/scrollider/images/pattern.jpg') repeat;}
 .has-slider #content-top 					{position:relative; top:0;}
+#content-top 								{background:none;}
 .has-slider #header 						{margin:0; padding:0; position:relative;}
 #header .col-full 							{height:125px; background:url('/wp-content/themes/scrollider/images/header.jpg') repeat;}
 #header #logo 								{margin:10px 0 0 10px !important;}
@@ -13,4 +14,5 @@ body 										{background:url('/wp-content/themes/scrollider/images/pattern.jpg
 .has-slider #featured header h1 			{display:none;}
 #featured ul.flex-direction-nav li a 		{display:none;}
 #featured:hover ul.flex-direction-nav li a 	{display:block;}
+#featured .slide .slide-content-container .slide-content {display:none;}
 #content-top 								{padding:0;}
