@@ -7,6 +7,8 @@ body 										{background:url('/wp-content/themes/scrollider/images/pattern.jpg
 #header #logo 								{margin:10px 0 0 10px !important;}
 #navigation 								{margin:48px 0 0 !important;}
 #header .mini-cart 							{margin:48px 10px 0 0 !important;}
+#header .nav-toggle 						{margin:48px 10px 0 0 !important;}
+#header .mini-cart > li a.cart-parent 		{color:#FFF; text-shadow:none;}
 .has-slider #featured-wrap 					{position:relative; background:none;}
 #content 									{margin:0 !important; background:none;}
 #sub-feature 								{background:none;}
