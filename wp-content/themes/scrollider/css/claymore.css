@@ -3,6 +3,7 @@ body 										{background:url('/wp-content/themes/scrollider/images/pattern.jpg
 .has-slider #content-top 					{position:relative; top:0;}
 #content-top 								{background:none;}
 .has-slider #header 						{margin:0; padding:0; position:relative;}
+#header 									{padding-bottom:0;}
 #header .col-full 							{height:125px; background:url('/wp-content/themes/scrollider/images/header.jpg') repeat;}
 #header #logo 								{margin:10px 0 0 10px !important;}
 #navigation 								{margin:48px 0 0 !important;}
@@ -10,7 +11,7 @@ body 										{background:url('/wp-content/themes/scrollider/images/pattern.jpg
 #header .nav-toggle 						{margin:48px 10px 0 0 !important;}
 #header .mini-cart > li a.cart-parent 		{color:#FFF; text-shadow:none;}
 .has-slider #featured-wrap 					{position:relative; background:none;}
-#content 									{margin:0 !important; background:none;}
+#content 									{margin:0 auto !important; background:none;}
 #sub-feature 								{background:none;}
 .col-full 									{background:#FFF;}
 .has-slider #featured header h1 			{display:none;}
