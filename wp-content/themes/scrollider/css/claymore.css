@@ -1,13 +1,14 @@
 html 										{margin-top:0 !important;}
 body 										{background:url('/wp-content/themes/scrollider/images/pattern.jpg') repeat;}
-body.admin-bar.has-slider #content-top 		{top:0;}
 .has-slider #content-top 					{position:relative; top:0;}
 .has-slider #header 						{margin:0; padding:0; position:relative;}
 #header .col-full 							{height:125px; background:url('/wp-content/themes/scrollider/images/header.jpg') repeat;}
 #header #logo 								{margin:10px 0 0 10px !important;}
 #navigation 								{margin:48px 0 0 !important;}
 #header .mini-cart 							{margin:48px 10px 0 0 !important;}
-.has-slider #featured-wrap 					{position:relative;}
+.has-slider #featured-wrap 					{position:relative; background:none;}
 #content 									{margin:0 !important;}
 .has-slider #featured header h1 			{display:none;}
+#featured ul.flex-direction-nav li a 		{display:none;}
+#featured:hover ul.flex-direction-nav li a 	{display:block;}
 #content-top 								{padding:0;}
