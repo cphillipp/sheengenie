@@ -1,8 +1,13 @@
 html 										{margin-top:0 !important;}
 body.admin-bar.has-slider #content-top 		{top:0;}
 .has-slider #content-top 					{position:relative; top:0;}
-.has-slider #header 						{margin:0; padding:0; height:125px; background:url('/wp-content/themes/scrollider/images/header.jpg') repeat; position:relative;}
-#header #logo 								{margin:10px 0 0;}
+.has-slider #header 						{margin:0; padding:0; height:125px; position:relative;}
+#main.fullwidth, 
+.layout-full #main, 
+.col-full 									{background:url('/wp-content/themes/scrollider/images/header.jpg') repeat;}
+#header #logo 								{margin:10px 0 0 10px !important;}
+#navigation 								{margin:30px 0 0 !important;}
+#header .mini-cart 							{margin:30px 0 0 !important;}
 .has-slider #featured-wrap 					{position:relative;}
 #content 									{margin:0 !important;}
 .has-slider #featured header h1 			{display:none;}
