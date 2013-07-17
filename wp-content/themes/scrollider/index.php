@@ -58,9 +58,9 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
 
 		<div class="col-full">
 
-			<header class="section-title">
-				<p><span><?php echo $settings['widget_area_message']; ?></span></p>
-			</header>
+			<!-- <header class="section-title">
+				<p><span></?php echo $settings['widget_area_message']; ?></span></p>
+			</header> -->
 
 			<div id="home-widgets" class="<?php echo esc_attr( 'columns-' . woo_get_homepage_column_count() ); ?>">
 
