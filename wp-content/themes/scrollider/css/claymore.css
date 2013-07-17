@@ -33,6 +33,11 @@ body.without-features #content 								{padding-top:0; padding-bottom:0;}
 #footer .col-full 											{padding:1.618em 0;}
 #footer-widgets 											{background:#36424e url('/wp-content/themes/scrollider/images/patternbg.png') repeat;}
 #footer-widgets-container 									{background:transparent; border-top:none;}
+#footer-widgets .block 										{margin-right:0;}
+#footer-widgets.col-3 .block 								{width:33.33%;}
+#footer-widgets .widget 									{padding:0 1.618em; background:transparent;}
+#footer-widgets .widget h3 									{color:#FFF;}
+#footer-widgets .widget .textwidget 						{color:#FFF;}
 .home.has-slider #content 									{box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15); -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.15);}
 .post, .type-page, .type-features, 
 .search-results .features, .search-results 
