@@ -33,6 +33,6 @@ body.without-features #content 								{padding-top:0;}
 .page, .search-results .type-product, 
 .search-results .type-portfolio 							{margin:0; box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.1); -webkit-border-radius:0px; border-radius:0px;}
 
-@media only screen and (min-width: 912px)					{
+@media only screen and (max-width: 912px)					{
 	.home #home-widgets.columns-3 .block.home-widget-3 		{width:100%;}
 }
