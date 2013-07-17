@@ -36,7 +36,6 @@ body.without-features #content 								{padding-top:0; padding-bottom:0;}
 #footer-widgets 											{background:#36424e url('/wp-content/themes/scrollider/images/patternbg.png') repeat;}
 #footer-widgets-container 									{background:transparent; border-top:none;}
 #footer-widgets .block 										{margin-right:0;}
-#footer-widgets.col-3 .block 								{width:33.33%;}
 #footer-widgets .widget 									{padding:0 1.618em; background:transparent;}
 #footer-widgets .widget h3 									{color:#FFF;}
 #footer-widgets .widget .textwidget 						{color:#FFF;}
@@ -46,6 +45,9 @@ body.without-features #content 								{padding-top:0; padding-bottom:0;}
 .page, .search-results .type-product, 
 .search-results .type-portfolio 							{margin:0; box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.1); -webkit-border-radius:0px; border-radius:0px;}
 
+@media only screen and (min-width: 768px){
+	#footer-widgets.col-3 .block 							{width:33.33%;}
+}
 @media only screen and (max-width: 912px)					{
 	.home #home-widgets.columns-3 .block.home-widget-3 		{width:100%;}
 }
