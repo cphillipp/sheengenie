@@ -26,6 +26,7 @@ ul.nav 														{background:#000; position:relative; z-index:1;}
 #featured:hover ul.flex-direction-nav li a 					{display:block;}
 #featured .slide .slide-content-container .slide-content 	{display:none;}
 #gallery-1 img 												{height:auto;}
+.slides, .flex-control-nav, .flex-direction-nav 			{position:relative; height:20px; display:block; width:912px;}
 #gallery-1 .gallery-item 									{width:22% !important; margin-right:17px;}
 .widget 													{margin-bottom:0; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); -webkit-border-radius:0; border-radius:0;}
 #content-top 												{padding:0;}
