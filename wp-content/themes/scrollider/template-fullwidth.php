@@ -13,14 +13,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
  * @package WooFramework
  * @subpackage Template
  */
-
 	get_header();
-
-	/**
- 	* The Variables
- 	*
- 	* Setup default variables, overriding them if the "Theme Options" have been saved.
- 	*/
 	
 	$settings = array(
 					'features_area' => 'true',
@@ -30,7 +23,6 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 					
 	$settings = woo_get_dynamic_values( $settings );
 	if ( get_query_var( 'page' ) > 1) { $paged = get_query_var( 'page' ); } elseif ( get_query_var( 'paged' ) > 1) { $paged = get_query_var( 'paged' ); } else { $paged = 1; } 
-	
 ?>
        
     <div id="content" class="page col-full">
