@@ -1290,6 +1290,11 @@ msgstr ""
 msgid "Footer 4"
 msgstr ""
 
+#: includes/sidebar-init.php:24
+#@ woothemes
+msgid "Homepage Full"
+msgstr ""
+
 #: includes/sidebar-init.php:21
 #@ woothemes
 msgid "Homepage Left"
@@ -1303,11 +1308,6 @@ msgstr ""
 #: includes/sidebar-init.php:23
 #@ woothemes
 msgid "Homepage Right"
-msgstr ""
-
-#: includes/sidebar-init.php:24
-#@ woothemes
-msgid "Homepage Full"
 msgstr ""
 
 #: includes/sidebar-init.php:25
