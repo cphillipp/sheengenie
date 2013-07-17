@@ -34,17 +34,6 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
 
     <div id="content">
 
-		<?php
-			// Output the Features Area	
-			if ( ( $paged == 1 ) && $settings['features_area'] == 'true' ) { get_template_part( 'includes/home-panel-features' ); } 
-		?>
-
-		<?php
-			if ( ( is_active_sidebar( 'homepage-1' ) ||
-				   is_active_sidebar( 'homepage-2' ) ||
-				   is_active_sidebar( 'homepage-3' ) ) 
-				) {
-		?>
 	   	<div class="col-full">
 
 			<header class="section-title">
@@ -77,6 +66,18 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
 			</div>
 		<?php } ?>
 		<?php if ( ! is_active_sidebar( 'homepage-full' ) ) { get_template_part( 'includes/home-panel-default' ); } ?>
+
+		<?php
+			// Output the Features Area	
+			if ( ( $paged == 1 ) && $settings['features_area'] == 'true' ) { get_template_part( 'includes/home-panel-features' ); } 
+		?>
+
+		<?php
+			if ( ( is_active_sidebar( 'homepage-1' ) ||
+				   is_active_sidebar( 'homepage-2' ) ||
+				   is_active_sidebar( 'homepage-3' ) ) 
+				) {
+		?>
 
     </div><!-- /#content -->
 
