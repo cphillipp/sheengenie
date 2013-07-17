@@ -13,6 +13,7 @@ body.without-features #content 								{padding-top:0; padding-bottom:0;}
 #header .col-full 											{height:125px; background:url('/wp-content/themes/scrollider/images/header.jpg') repeat;}
 #header #logo 												{margin:10px 0 0 10px !important;}
 #navigation 												{margin:48px 0 0 !important;}
+ul.nav 														{background:#000; position:relative; z-index:1;}
 #header .mini-cart 											{margin:48px 10px 0 0 !important;}
 #header .nav-toggle 										{margin:48px 10px 0 0 !important;}
 #header .mini-cart > li a.cart-parent 						{color:#FFF; text-shadow:none;}
