@@ -8,7 +8,7 @@ body.without-features #content 								{padding-top:0; padding-bottom:0;}
 #header .mini-cart > li a.cart-parent mark 					{background:#000;}
 .has-slider #content-top 									{margin:28px 0 0 !important; position:relative; top:0 !important;}
 #content-top 												{background:none;}
-.has-slider #header 										{margin:0; padding:0; position:relative;}
+.has-slider #header 										{margin:0; padding:0; position:relative; background:transparent;}
 #header 													{padding-bottom:0;}
 #header .col-full 											{height:125px; background:url('/wp-content/themes/scrollider/images/header.jpg') repeat;}
 #header #logo 												{margin:10px 0 0 10px !important;}
