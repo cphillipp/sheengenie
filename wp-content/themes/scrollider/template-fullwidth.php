@@ -14,18 +14,19 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
  * @subpackage Template
  */
 	get_header();
-	
-	$settings = array(
-					'features_area' => 'true',
-					'blog_area' => 'true',
-					'widget_area_message' => 'This is a heading for the widgetized regions below'
-					);
-					
-	$settings = woo_get_dynamic_values( $settings );
-	if ( get_query_var( 'page' ) > 1) { $paged = get_query_var( 'page' ); } elseif ( get_query_var( 'paged' ) > 1) { $paged = get_query_var( 'paged' ); } else { $paged = 1; } 
+	global $woo_options;
 ?>
        
     <div id="content" class="page col-full">
+
+    	<?php
+		// Output the Features Area
+		$settings = array(
+					'featured' => 'true'
+					);
+		$settings = woo_get_dynamic_values( $settings );
+		if ( ( is_front_page() || is_home() ) && ( isset($settings['featured']) && $settings['featured'] == 'true' ) ) { get_template_part( 'includes/featured' ); } 
+		?>
     
     	<?php woo_main_before(); ?>
     	
