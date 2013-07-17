@@ -1,7 +1,7 @@
 html 														{margin-top:0 !important;}
 body 														{background:url('/wp-content/themes/scrollider/images/pattern.jpg') repeat;}
 img 														{border:none !important;}
-body.without-features #content 								{padding-top:0; padding-bottom:0;}
+body.without-features #content 								{padding-top:0; padding-bottom:0; background:#FFF;}
 #single-widget-fullwidth, 				
 #home-widget-fullwidth 										{margin:0 auto;}
 .woo-sc-divider 											{border-top:1px solid #f1f1f1;}
@@ -47,6 +47,9 @@ ul.nav 														{background:#000; position:relative; z-index:1;}
 .page, .search-results .type-product, 
 .search-results .type-portfolio 							{margin:0; box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.1); -webkit-border-radius:0px; border-radius:0px;}
 
+@media only screen and (min-width: 768px){
+	#main 													{padding: 0 0 0 20px;}
+}
 @media only screen and (min-width: 768px){
 	#footer-widgets.col-3 .block 							{width:33.33%;}
 }
