@@ -19,3 +19,7 @@ body 										{background:url('/wp-content/themes/scrollider/images/pattern.jpg
 #featured:hover ul.flex-direction-nav li a 	{display:block;}
 #featured .slide .slide-content-container .slide-content {display:none;}
 #content-top 								{padding:0;}
+.post, .type-page, .type-features, 
+.search-results .features, .search-results 
+.page, .search-results .type-product, 
+.search-results .type-portfolio 			{margin:0; box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.1); -webkit-border-radius:0px; border-radius:0px;}
