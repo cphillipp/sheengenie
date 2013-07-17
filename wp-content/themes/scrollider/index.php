@@ -34,6 +34,13 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
 
     <div id="content">
 
+    	<?php if ( is_active_sidebar( 'homepage-full' ) ) { $home_content = true; ?>
+			<div id="home-widget-fullwidth" class="col-full">
+				<?php dynamic_sidebar( 'homepage-full' ); ?>
+			</div>
+		<?php } ?>
+		<?php if ( ! is_active_sidebar( 'homepage-full' ) ) { get_template_part( 'includes/home-panel-default' ); } ?>
+
 		<?php
 			// Output the Features Area	
 			if ( ( $paged == 1 ) && $settings['features_area'] == 'true' ) { get_template_part( 'includes/home-panel-features' ); } 
@@ -68,15 +75,9 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
 			</div><!-- /#home-widgets -->
 
 		</div><!-- /.col-full -->
+	
 
-		<?php } ?>		
-
-		<?php if ( is_active_sidebar( 'homepage-full' ) ) { $home_content = true; ?>
-			<div id="home-widget-fullwidth" class="col-full">
-				<?php dynamic_sidebar( 'homepage-full' ); ?>
-			</div>
-		<?php } ?>
-		<?php if ( ! is_active_sidebar( 'homepage-full' ) ) { get_template_part( 'includes/home-panel-default' ); } ?>
+		
 
     </div><!-- /#content -->
 
