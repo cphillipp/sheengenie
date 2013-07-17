@@ -30,7 +30,9 @@ body.without-features #content 								{padding-top:0; padding-bottom:0;}
 #content-top 												{padding:0;}
 .home #home-widgets.columns-3 .block.home-widget-3 			{width:65%;}
 #footer 													{padding:0; background:transparent;}
-#footer .col-full 											{padding:1.618em 0;}
+#footer .col-full 											{padding:1.618em 0; color:#909090;}
+#copyright 													{padding-left:1.618em;}
+#credit 													{padding-right:1.618em;}
 #footer-widgets 											{background:#36424e url('/wp-content/themes/scrollider/images/patternbg.png') repeat;}
 #footer-widgets-container 									{background:transparent; border-top:none;}
 #footer-widgets .block 										{margin-right:0;}
