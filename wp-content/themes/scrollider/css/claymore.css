@@ -4,6 +4,7 @@ img 														{border:none !important;}
 body.without-features #content 								{padding-top:0;}
 #single-widget-fullwidth, 				
 #home-widget-fullwidth 										{margin:0 auto;}
+.woo-sc-divider 											{border-top:1px solid #f1f1f1;}
 .has-slider #content-top 									{margin:28px 0 0 !important; position:relative; top:0 !important;}
 #content-top 												{background:none;}
 .has-slider #header 										{margin:0; padding:0; position:relative;}
