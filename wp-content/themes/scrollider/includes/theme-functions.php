@@ -215,7 +215,7 @@ if (!function_exists( 'woo_subscribe_connect')) {
 						'connect' => 'false', 
 						'connect_title' => __('Subscribe' , 'woothemes'), 
 						'connect_related' => 'true', 
-						'connect_content' => __( 'Subscribe to our e-mail newsletter to receive updates.', 'woothemes' ),
+						'connect_content' => __( '', 'woothemes' ),
 						'connect_newsletter_id' => '', 
 						'connect_mailchimp_list_url' => '',
 						'feed_url' => '',
