@@ -1,31 +1,38 @@
-html 										{margin-top:0 !important;}
-body 										{background:url('/wp-content/themes/scrollider/images/pattern.jpg') repeat;}
-img 										{border:none !important;}
-body.without-features #content 				{padding-top:0;}
-#single-widget-fullwidth, 
-#home-widget-fullwidth 						{margin:0 auto;}
-.has-slider #content-top 					{margin:28px 0 0 !important; position:relative; top:0 !important;}
-#content-top 								{background:none;}
-.has-slider #header 						{margin:0; padding:0; position:relative;}
-#header 									{padding-bottom:0;}
-#header .col-full 							{height:125px; background:url('/wp-content/themes/scrollider/images/header.jpg') repeat;}
-#header #logo 								{margin:10px 0 0 10px !important;}
-#navigation 								{margin:48px 0 0 !important;}
-#header .mini-cart 							{margin:48px 10px 0 0 !important;}
-#header .nav-toggle 						{margin:48px 10px 0 0 !important;}
-#header .mini-cart > li a.cart-parent 		{color:#FFF; text-shadow:none;}
-.has-slider #featured-wrap 					{position:relative; background:none;}
-#content 									{margin:0 auto !important; background:none;}
-#sub-feature 								{background:none; margin:0;}
-.col-full 									{background:#FFF;}
-.has-slider #featured header h1 			{display:none;}
-#featured ul.flex-direction-nav li a 		{display:none;}
-#featured:hover ul.flex-direction-nav li a 	{display:block;}
-#featured .slide .slide-content-container .slide-content {display:none;}
-.widget 									{margin-bottom:0; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); -webkit-border-radius:0; border-radius:0;}
-#content-top 								{padding:0;}
-.home.has-slider #content 					{box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15); -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.15);}
+html 														{margin-top:0 !important;}
+body 														{background:url('/wp-content/themes/scrollider/images/pattern.jpg') repeat;}
+img 														{border:none !important;}
+body.without-features #content 								{padding-top:0;}
+#single-widget-fullwidth, 				
+#home-widget-fullwidth 										{margin:0 auto;}
+.has-slider #content-top 									{margin:28px 0 0 !important; position:relative; top:0 !important;}
+#content-top 												{background:none;}
+.has-slider #header 										{margin:0; padding:0; position:relative;}
+#header 													{padding-bottom:0;}
+#header .col-full 											{height:125px; background:url('/wp-content/themes/scrollider/images/header.jpg') repeat;}
+#header #logo 												{margin:10px 0 0 10px !important;}
+#navigation 												{margin:48px 0 0 !important;}
+#header .mini-cart 											{margin:48px 10px 0 0 !important;}
+#header .nav-toggle 										{margin:48px 10px 0 0 !important;}
+#header .mini-cart > li a.cart-parent 						{color:#FFF; text-shadow:none;}
+.has-slider #featured-wrap 									{position:relative; background:none;}
+#content 													{margin:0 auto !important; background:none;}
+#sub-feature 												{background:none; margin:0;}
+.col-full 													{background:#FFF;}
+.has-slider #featured header h1 							{display:none;}
+#featured ul.flex-direction-nav li a 						{display:none;}
+#featured:hover ul.flex-direction-nav li a 					{display:block;}
+#featured .slide .slide-content-container .slide-content 	{display:none;}
+#gallery-1 img 												{height:auto;}
+#gallery-1 .gallery-item 									{width:22%; margin-right:17px;}
+.widget 													{margin-bottom:0; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); -webkit-border-radius:0; border-radius:0;}
+#content-top 												{padding:0;}
+.home #home-widgets.columns-3 .block.home-widget-3 			{width:65%;}
+.home.has-slider #content 									{box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15); -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.15);}
 .post, .type-page, .type-features, 
 .search-results .features, .search-results 
 .page, .search-results .type-product, 
-.search-results .type-portfolio 			{margin:0; box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.1); -webkit-border-radius:0px; border-radius:0px;}
+.search-results .type-portfolio 							{margin:0; box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.1); -webkit-border-radius:0px; border-radius:0px;}
+
+@media only screen and (min-width: 912px)					{
+	.home #home-widgets.columns-3 .block.home-widget-3 		{width:100%;}
+}
