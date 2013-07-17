@@ -51,5 +51,6 @@ ul.nav 														{background:#000; position:relative; z-index:1;}
 	#footer-widgets.col-3 .block 							{width:33.33%;}
 }
 @media only screen and (max-width: 912px)					{
+	.slides, .flex-control-nav, .flex-direction-nav 		{width:100%;}
 	.home #home-widgets.columns-3 .block.home-widget-3 		{width:100%;}
 }
