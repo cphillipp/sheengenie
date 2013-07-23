@@ -51,7 +51,7 @@ ul.nav 														{background:#000; position:relative; z-index:1;}
 
 @media only screen and (min-width: 768px){
 	#main 													{padding: 0 0 0 20px;}
-	#navigation ul.nav > li a 								{color:#FFF;}
+	#navigation ul.nav > li a 								{color:#FFF; text-shadow:0 0 0 #000000; text-shadow:0 0 0 rgba(0, 0, 0, 0.4);}
 }
 @media only screen and (min-width: 768px){
 	#footer-widgets.col-3 .block 							{width:33.33%;}
