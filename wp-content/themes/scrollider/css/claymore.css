@@ -50,6 +50,7 @@ ul.nav 														{background:#000; position:relative; z-index:1;}
 .widget 													{margin-bottom:0; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); -webkit-border-radius:0; border-radius:0;}
 #content-top 												{padding:0;}
 .home #home-widgets.columns-3 .block.home-widget-3 			{width:65%;}
+.single-product-wrap .images 								{padding: 2.244em 0 2.244em 2.244em; width:39%;}
 #footer 													{padding:0; background:transparent;}
 #footer .col-full 											{padding:1.618em 0; color:#909090;}
 #copyright 													{padding-left:1.618em;}
@@ -86,6 +87,7 @@ ul.nav 														{background:#000; position:relative; z-index:1;}
 	#navigation ul.nav li.current-menu-ancestor ul li:hover a, 
 	#navigation ul.nav li.current-cat ul li:hover a, 
 	#navigation ul.nav li.li.current-menu-item ul li:hover a {color:#000;}
+	.single-product-wrap .images 								{padding: 2.244em 0 2.244em 2.244em; width:39%;}
 }
 @media only screen and (min-width: 768px){
 	#footer-widgets.col-3 .block 							{width:33.33%;}
