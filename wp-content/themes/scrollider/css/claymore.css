@@ -15,6 +15,7 @@ body.home.without-features #content 						{padding-top:0; padding-bottom:0; back
 #header #logo 												{margin:10px 0 0 10px !important;}
 #navigation 												{margin:16px 0 0 !important;}
 ul.nav 														{background:#000; position:relative; z-index:1;}
+.has-slider #navigation ul.nav > li a 						{text-shadow:0 0 0 #000000; text-shadow:0 0 0 rgba(0, 0, 0, 0.4);}
 #header .mini-cart 											{margin:16px 10px 0 0 !important;}
 #header .nav-toggle 										{margin:16px 10px 0 0 !important;}
 #header .mini-cart > li a.cart-parent 						{color:#FFF; text-shadow:none;}
