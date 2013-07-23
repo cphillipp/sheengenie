@@ -51,7 +51,7 @@ ul.nav 														{background:#000; position:relative; z-index:1;}
 #content-top 												{padding:0;}
 .home #home-widgets.columns-3 .block.home-widget-3 			{width:65%;}
 .single-product-wrap .images 								{padding: 2.244em 0 2.244em 2.244em; width:39%;}
-.single #post-author 										{margin-bottom:20px;}
+.single #post-author 										{margin-top:20px;}
 #footer 													{padding:0; background:transparent;}
 #footer .col-full 											{padding:1.618em 0; color:#909090;}
 #copyright 													{padding-left:1.618em;}
