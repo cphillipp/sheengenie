@@ -334,7 +334,7 @@ if (!function_exists('scrollider_mini_cart')) {
 		?>
 		<ul class="mini-cart">
 			<li>
-				<a href="#" class="cart-parent">
+				<a href="/cart/" class="cart-parent">
 					<span>
 					<?php
 					echo '<mark>' . $woocommerce->cart->get_cart_contents_count() . '</mark>';
