@@ -15,7 +15,7 @@ body.home.without-features #content 						{padding-top:0; padding-bottom:0; back
 #header #logo 												{margin:10px 0 0 10px !important;}
 #navigation 												{margin:16px 0 0 !important;}
 ul.nav 														{background:#000; position:relative; z-index:1;}
-.has-slider #navigation ul.nav > li a 						{text-shadow:0 0 0 #000000; text-shadow:0 0 0 rgba(0, 0, 0, 0.4);}
+.has-slider #navigation ul.nav > li a 						{text-shadow:0 0 0 #000000; text-shadow:0 0 0 rgba(0, 0, 0, 0.4); white-space:nowrap;}
 #navigation ul.nav > li a:hover 							{color:#000;}
 #navigation ul.nav ul li a 		 							{color:#AAA;}
 #navigation ul.nav li.current_page_item a, 
@@ -36,16 +36,20 @@ ul.nav 														{background:#000; position:relative; z-index:1;}
 #header .mini-cart 											{margin:16px 10px 0 0 !important;}
 #header .nav-toggle 										{margin:16px 10px 0 0 !important;}
 #header .mini-cart > li a.cart-parent 						{color:#FFF; text-shadow:none;}
+#main.fullwidth, .layout-full #main, .col-full 				{max-width:90em;}
 .has-slider #featured-wrap 									{position:relative; background:none;}
 #content 													{margin:0 auto !important; background:none;}
 #sub-feature 												{background:none; margin:0;}
 .col-full 													{background:#FFF;}
+.widget ul li a 											{padding:0 5px 0 0;}
+#breadcrumbs 												{margin:0 0 1.618em 20px;}
 .has-slider #featured header h1 							{display:none;}
-#featured ul.flex-direction-nav li a 						{display:none;}
+#featured .slide 											{background:#FFF;}
+#featured ul.flex-direction-nav li a 						{display:none; background-color:#454545;}
 #featured:hover ul.flex-direction-nav li a 					{display:block;}
 #featured .slide .slide-content-container .slide-content 	{display:none;}
 #gallery-1 img 												{height:auto;}
-.slides, .flex-control-nav, .flex-direction-nav 			{margin:0 auto; position:relative; height:20px; display:block; width:912px;}
+.slides, .flex-control-nav, .flex-direction-nav 			{margin:0 auto; position:relative; height:20px; display:block; width:1080px;}
 #gallery-1 .gallery-item 									{width:22% !important; margin-right:17px;}
 .widget 													{margin-bottom:0; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); -webkit-border-radius:0; border-radius:0;}
 #content-top 												{padding:0;}
