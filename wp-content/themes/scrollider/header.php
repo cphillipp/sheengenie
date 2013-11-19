@@ -22,8 +22,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 
-<title><?php woo_title(''); ?></title>
-<?php woo_meta(); ?>
+<title><?php wp_title(); ?></title>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" media="screen" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
